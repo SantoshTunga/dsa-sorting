@@ -28,15 +28,14 @@ public class MergeTwoSortedArray {
 
 	public static void merge(int[] num1, int m, int[] num2, int n) {
 
-		int index = m + n - 1;
-		int num1Len = m - 1;
-		int num2Len = n - 1;
-
-		// edge case , the second array cannot be empty
-
+		// edge case , the second array cannot be empty or dont call this method
 		if (n == 0) {
 			return;
 		}
+
+		int index = m + n - 1;
+		int num1Len = m - 1;
+		int num2Len = n - 1;
 
 		while (index >= 0) {
 
