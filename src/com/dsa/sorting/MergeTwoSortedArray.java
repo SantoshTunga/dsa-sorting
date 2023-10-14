@@ -4,9 +4,9 @@ public class MergeTwoSortedArray {
 
 	/**
 	 * In this example , the final result is pushed to first array which is having
-	 * more size this case is suitable for the scenario where you know the array not
-	 * empty size . Complexity O(m+n ) => O(n) where n is the total number of
-	 * elements , space complexity O(1)
+	 * more size . This case is suitable for the scenario where you know the empty
+	 * array size which is equivalent to the 2nd array . Complexity O(m+n ) => O(n)
+	 * where n is the total number of elements , space complexity O(1) .
 	 * 
 	 * @param args
 	 */
