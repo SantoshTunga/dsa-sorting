@@ -34,6 +34,8 @@ public class MergeTwoSortedArrayAuxSpace {
 
 		while (finalIndex < totallength) {
 
+			// check the index of both the arrays and compare
+
 			if (firstIndex < a.length && secondIndex < b.length) {
 
 				if (a[firstIndex] <= b[secondIndex]) {
@@ -45,6 +47,7 @@ public class MergeTwoSortedArrayAuxSpace {
 					secondIndex++;
 				}
 
+				// handling the remaining elements
 			} else if (firstIndex < a.length) {
 
 				result[finalIndex] = a[firstIndex];
